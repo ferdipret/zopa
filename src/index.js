@@ -9,4 +9,11 @@ import App from './containers/App'
 import './reset.css'
 import './fonts.css'
 
-render(<App />, document.getElementById('root'))
+const store = createStore(rootReducer, applyMiddleware(thunk))
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root'),
+)
