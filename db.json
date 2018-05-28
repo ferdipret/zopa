@@ -1,0 +1,42 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "firstname": "Ferdinand",
+      "lastname": "Pretorius",
+      "email": "ferdinandpretorius@zopa.com",
+      "balance": 20000,
+      "transactionIds": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "name": "Kim",
+      "email": "kimpretorius@zopa.com",
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "name": "Lee",
+      "email": "leepretorius@zopa.com",
+      "amount": 2000
+    },
+    {
+      "id": 3,
+      "name": "Maisie",
+      "email": "maisiepretorius@zopa.com",
+      "amount": 3000
+    },
+    {
+      "id": 4,
+      "name": "Millie",
+      "email": "milliepretorius@zopa.com",
+      "amount": 4000
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+export const POST_TRANSACTION = 'POST_TRANSACTION'
+export const FETCH_PROFILE = 'FETCH_PROFILE'
+export const FETCH_TRANSACTIONS = 'FETCH_TRANSACTIONS'
+export const API_ENTRY_POINT = 'localhost:1337'
