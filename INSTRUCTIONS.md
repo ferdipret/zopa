@@ -6,10 +6,12 @@
 
 3. Open up your browser and navigate to [localhost:3000](http://localhost:3000)
 
-I've add header to avoid any CORS conflicts.
+I've added headers to avoid any CORS conflicts.
 
 Lastly I didn't have time to show validation on the input fields, however the
-form won't submit if the fields do not contain some content.
+form won't submit if the fields do not contain some content. The input component
+also takes an `error` prop as a boolean value to display the error state, and
+`helperText` as a string or an array of strings to display any error messages.
 
 ---
 **Thank you, and I hope you like the app!** 
