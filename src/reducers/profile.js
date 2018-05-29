@@ -11,7 +11,8 @@ const profile = (state = {}, action) => {
     case UPDATE_USER_AMOUNT: {
       newState = {
         ...state,
-        amount: state.amount - action.payload
+        balance: action.payload.balance,
+        transactionIds: action.payload.transactionIds
       }
       break
     }

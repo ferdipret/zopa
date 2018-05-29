@@ -15,9 +15,9 @@ const mockPostResponse = {
   body: [{ id: 1, amount: 1000 }]
 }
 
-fetchMock.get("localhost:1337/transactions?id=1&id=2", mockGetResponse)
-fetchMock.post("localhost:1337/transactions", mockPostResponse)
-fetchMock.post("localhost:1337/profiles", {
+fetchMock.get("http://localhost:1337/transactions?id=1&id=2", mockGetResponse)
+fetchMock.post("http://localhost:1337/transactions", mockPostResponse)
+fetchMock.patch("http://localhost:1337/profiles/1", {
   amount: 200
 })
 
@@ -51,8 +51,14 @@ it("creates an async action to post a new transaction, and then update the user 
     }
   ]
 
+  const profile = {
+    id: 1,
+    balance: 10,
+    transactionIds: [1, 2, 3]
+  }
+
   return store
-    .dispatch(actions.postTransaction(mockPostResponse.body))
+    .dispatch(actions.postTransaction(profile, mockPostResponse.body))
     .then(() => {
       expect(store.getActions()).toEqual(expectedActions)
       store.clearActions()
@@ -93,4 +99,11 @@ it("creates an action to update transaction input field values", () => {
   expect(actions.updateInputValue(namePayload)).toEqual(expectedNameAction)
   expect(actions.updateInputValue(emailPayload)).toEqual(expectedEmailAction)
   expect(actions.updateInputValue(amountPayload)).toEqual(expectedAmountAction)
+  expect(actions.updateInputValue({ value: "a", ref: "amount" })).toEqual({
+    type: constants.UPDATE_INPUT_VALUE,
+    payload: {
+      value: "",
+      ref: "amount"
+    }
+  })
 })

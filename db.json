@@ -5,8 +5,14 @@
       "firstname": "Ferdinand",
       "lastname": "Pretorius",
       "email": "ferdinandpretorius@zopa.com",
-      "balance": 20000,
-      "transactionIds": [1, 2, 3, 4]
+      "balance": 19000,
+      "transactionIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   ],
   "transactions": [
@@ -33,6 +39,12 @@
       "name": "Millie",
       "email": "milliepretorius@zopa.com",
       "amount": 4000
+    },
+    {
+      "name": "test",
+      "email": "test",
+      "amount": 1000,
+      "id": 5
     }
   ]
 }

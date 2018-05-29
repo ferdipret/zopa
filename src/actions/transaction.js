@@ -2,7 +2,14 @@ import * as constants from "./constants"
 
 export const updateInputValue = payload => {
   let { ref } = payload
-  let value = payload.ref === "amount" ? parseInt(payload.value) : payload.value
+  let value
+
+  if (payload.ref === "amount") {
+    value =
+      isNaN(payload.value) || !payload.value ? "" : parseInt(payload.value, 10)
+  } else {
+    value = payload.value
+  }
 
   return {
     type: constants.UPDATE_INPUT_VALUE,
@@ -22,11 +29,12 @@ export const fetchTransactions = ids => dispatch => {
     )
 }
 
-export const postTransaction = payload => dispatch => {
+export const postTransaction = (profile, payload) => dispatch => {
   return fetch(`${constants.API_ENTRY_POINT}/transactions`, {
     headers: {
       Accept: "application/json",
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
     },
     method: "POST",
     body: JSON.stringify(payload)
@@ -34,17 +42,21 @@ export const postTransaction = payload => dispatch => {
     .then(res => res.json())
     .then(json => {
       dispatch({ type: constants.UPDATE_TRANSACTIONS, payload: json })
-      return fetch(`${constants.API_ENTRY_POINT}/profiles`, {
+      return fetch(`${constants.API_ENTRY_POINT}/profiles/${profile.id}`, {
         headers: {
           Accept: "application/json",
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "http://localhost:1337"
         },
-        method: "POST",
-        body: JSON.stringify(json)
+        method: "PATCH",
+        body: JSON.stringify({
+          balance: profile.balance - json.amount,
+          transactionIds: [...profile.transactionIds, json.id]
+        })
       })
     })
     .then(res => res.json())
-    .then(json =>
+    .then(json => {
       dispatch({ type: constants.UPDATE_USER_AMOUNT, payload: json })
-    )
+    })
 }

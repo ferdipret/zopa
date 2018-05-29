@@ -1,19 +1,19 @@
-import configureMockStore from 'redux-mock-store'
-import thunk from 'redux-thunk'
-import fetchMock from 'fetch-mock'
+import configureMockStore from "redux-mock-store"
+import thunk from "redux-thunk"
+import fetchMock from "fetch-mock"
 
-import * as constants from '../constants'
-import * as actions from '../profile'
+import * as constants from "../constants"
+import * as actions from "../profile"
 
 const createMockStore = configureMockStore([thunk])
 const store = createMockStore({ profile: {} })
-const mockResponse = { body: { id: 1, firstname: 'Ferdinand' } }
+const mockResponse = { body: { id: 1, firstname: "Ferdinand" } }
 
-fetchMock.get(/localhost:1337\/\d+/, mockResponse)
+fetchMock.get(/localhost:1337\/profiles\/\d+/, mockResponse)
 
-it('creates an async action to fetch the user profile', () => {
+it("creates an async action to fetch the user profile", () => {
   const expectedActions = [
-    { payload: mockResponse.body, type: constants.FETCH_PROFILE },
+    { payload: mockResponse.body, type: constants.FETCH_PROFILE }
   ]
 
   return store

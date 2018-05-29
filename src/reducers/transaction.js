@@ -7,7 +7,7 @@ import {
 export const initialState = {
   name: "",
   email: "",
-  amount: 0,
+  amount: "",
   transactionHistory: []
 }
 

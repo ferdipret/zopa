@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <History
+    transactions={
+        Array [
+            Object {
+              "amount": 2000,
+              "email": "jimmyblogs@zopa.com",
+              "name": "Jimmy",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Array [
+    <div>
+      <div>
+            Jimmy
+      </div>
+      <div>
+            jimmyblogs@zopa.com
+      </div>
+      <div>
+            2000
+      </div>
+</div>,
+  ],
+  Symbol(enzyme.__nodes__): Array [
+    Array [
+      <div>
+        <div>
+                Jimmy
+        </div>
+        <div>
+                jimmyblogs@zopa.com
+        </div>
+        <div>
+                2000
+        </div>
+</div>,
+    ],
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

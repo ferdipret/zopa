@@ -361,6 +361,7 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "input-field",
+                "onBlur": [Function],
                 "onChange": [Function],
                 "onFocus": [Function],
                 "value": "Hello there, brown bear!",
@@ -370,6 +371,7 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "input-field",
+                "onBlur": [Function],
                 "onChange": [Function],
                 "onFocus": [Function],
                 "value": "Hello there, brown bear!",
@@ -383,7 +385,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                  "lineNumber": 44,
+                  "lineNumber": 45,
                 },
                 "alternate": null,
                 "child": null,
@@ -415,7 +417,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 57,
+                    "lineNumber": 59,
                   },
                   "alternate": null,
                   "child": null,
@@ -478,6 +480,7 @@ ReactWrapper {
               "children": Array [
                 <input
                   className="input-field"
+                  onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
                   value="Hello there, brown bear!"
@@ -501,6 +504,7 @@ ReactWrapper {
               "children": Array [
                 <input
                   className="input-field"
+                  onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
                   value="Hello there, brown bear!"
@@ -1702,6 +1706,7 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "input-field",
+                "onBlur": [Function],
                 "onChange": [Function],
                 "onFocus": [Function],
                 "value": "Hello there, brown bear!",
@@ -1711,6 +1716,7 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "input-field",
+                "onBlur": [Function],
                 "onChange": [Function],
                 "onFocus": [Function],
                 "value": "Hello there, brown bear!",
@@ -1724,7 +1730,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                  "lineNumber": 44,
+                  "lineNumber": 45,
                 },
                 "alternate": null,
                 "child": null,
@@ -1756,7 +1762,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 57,
+                    "lineNumber": 59,
                   },
                   "alternate": null,
                   "child": null,
@@ -1819,6 +1825,7 @@ ReactWrapper {
               "children": Array [
                 <input
                   className="input-field"
+                  onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
                   value="Hello there, brown bear!"
@@ -1842,6 +1849,7 @@ ReactWrapper {
               "children": Array [
                 <input
                   className="input-field"
+                  onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
                   value="Hello there, brown bear!"
@@ -2663,6 +2671,7 @@ ReactWrapper {
           "children": Array [
             <input
               className="input-field"
+              onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
               value="Hello there, brown bear!"
@@ -2690,6 +2699,7 @@ ReactWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "input-field",
+              "onBlur": [Function],
               "onChange": [Function],
               "onFocus": [Function],
               "value": "Hello there, brown bear!",
@@ -3088,6 +3098,7 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "className": "input-field",
+                  "onBlur": [Function],
                   "onChange": [Function],
                   "onFocus": [Function],
                   "value": "Hello there, brown bear!",
@@ -3097,6 +3108,7 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "className": "input-field",
+                  "onBlur": [Function],
                   "onChange": [Function],
                   "onFocus": [Function],
                   "value": "Hello there, brown bear!",
@@ -3110,7 +3122,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 44,
+                    "lineNumber": 45,
                   },
                   "alternate": null,
                   "child": null,
@@ -3142,7 +3154,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                      "lineNumber": 57,
+                      "lineNumber": 59,
                     },
                     "alternate": null,
                     "child": null,
@@ -3205,6 +3217,7 @@ ReactWrapper {
                 "children": Array [
                   <input
                     className="input-field"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     value="Hello there, brown bear!"
@@ -3228,6 +3241,7 @@ ReactWrapper {
                 "children": Array [
                   <input
                     className="input-field"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     value="Hello there, brown bear!"
@@ -4429,6 +4443,7 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "className": "input-field",
+                  "onBlur": [Function],
                   "onChange": [Function],
                   "onFocus": [Function],
                   "value": "Hello there, brown bear!",
@@ -4438,6 +4453,7 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "className": "input-field",
+                  "onBlur": [Function],
                   "onChange": [Function],
                   "onFocus": [Function],
                   "value": "Hello there, brown bear!",
@@ -4451,7 +4467,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 44,
+                    "lineNumber": 45,
                   },
                   "alternate": null,
                   "child": null,
@@ -4483,7 +4499,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                      "lineNumber": 57,
+                      "lineNumber": 59,
                     },
                     "alternate": null,
                     "child": null,
@@ -4546,6 +4562,7 @@ ReactWrapper {
                 "children": Array [
                   <input
                     className="input-field"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     value="Hello there, brown bear!"
@@ -4569,6 +4586,7 @@ ReactWrapper {
                 "children": Array [
                   <input
                     className="input-field"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     value="Hello there, brown bear!"
@@ -5390,6 +5408,7 @@ ReactWrapper {
             "children": Array [
               <input
                 className="input-field"
+                onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
                 value="Hello there, brown bear!"
@@ -5417,6 +5436,7 @@ ReactWrapper {
               "nodeType": "host",
               "props": Object {
                 "className": "input-field",
+                "onBlur": [Function],
                 "onChange": [Function],
                 "onFocus": [Function],
                 "value": "Hello there, brown bear!",
@@ -5477,6 +5497,7 @@ ReactWrapper {
         "enableComponentDidUpdateOnSetState": true,
       },
     },
+    "disableLifecycleMethods": true,
   },
 }
 `;

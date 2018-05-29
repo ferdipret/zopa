@@ -1,7 +1,7 @@
 import profileReducer from "../profile"
 import * as constants from "../../actions/constants"
 
-const initialState = { id: 1, firstname: "Ferdinand", amount: 5000 }
+const initialState = { id: 1, firstname: "Ferdinand", balance: 5000 }
 
 describe("profileReducer", () => {
   const payload = { id: 1, firstname: "Ferdinand" }
@@ -20,12 +20,14 @@ describe("profileReducer", () => {
     expect(
       profileReducer(initialState, {
         type: constants.UPDATE_USER_AMOUNT,
-        payload: 2000
+        payload: {
+          balance: 3000
+        }
       })
     ).toEqual({
       id: 1,
       firstname: "Ferdinand",
-      amount: 3000
+      balance: 3000
     })
   })
 })

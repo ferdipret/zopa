@@ -1,9 +1,9 @@
-import React from 'react'
-import styled, { css } from 'styled-components'
-import PropTypes from 'prop-types'
+import React from "react"
+import styled, { css } from "styled-components"
+import PropTypes from "prop-types"
 
-import color from './style-utils/colors'
-import shadow from './style-utils/shadows'
+import color from "./style-utils/colors"
+import shadow from "./style-utils/shadows"
 
 export class Input extends React.Component {
   static propTypes = {
@@ -12,21 +12,21 @@ export class Input extends React.Component {
     value: PropTypes.string.isRequired,
     label: PropTypes.string,
     error: PropTypes.bool,
-    helperText: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+    helperText: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
   }
 
   static defaultProps = {
-    label: '',
-    value: '',
-    className: '',
-    placeholder: '',
-    error: false,
+    label: "",
+    value: "",
+    className: "",
+    placeholder: "",
+    error: false
   }
 
   constructor() {
     super()
     this.state = {
-      active: false,
+      active: false
     }
   }
 
@@ -39,12 +39,14 @@ export class Input extends React.Component {
           className="input-field"
           onChange={onChange}
           onFocus={() => this.setState({ active: true })}
+          onBlur={() => this.setState({ active: false })}
           value={value}
         />
         <label
           htmlFor={label}
-          className={`label ${this.state.active && 'active'} ${value &&
-            'has-content'}`}>
+          className={`label ${this.state.active && "active"} ${value &&
+            "has-content"}`}
+        >
           {label}
         </label>
         {helperText && this.renderHelperText({ helperText, error })}
@@ -53,11 +55,11 @@ export class Input extends React.Component {
   }
 
   renderHelperText = ({ helperText, error }) => {
-    return typeof helperText === 'string' ? (
-      <div className={`helper ${error && 'error-text'}`}>{helperText}</div>
+    return typeof helperText === "string" ? (
+      <div className={`helper ${error && "error-text"}`}>{helperText}</div>
     ) : (
       helperText.map((text, i) => (
-        <div key={i} className={`helper ${error && 'error-text'}`}>
+        <div key={i} className={`helper ${error && "error-text"}`}>
           {text}
         </div>
       ))
