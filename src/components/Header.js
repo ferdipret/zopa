@@ -1,5 +1,12 @@
 import styled from 'styled-components'
+import color from './style-utils/colors'
 
 export default styled.div`
-  font-size: ${props => (props.main ? '20px' : '16px')};
+  color: ${color.labelText()};
+  font-family: Helvetica;
+  font-size: ${props => (props.main ? '32px' : '16px')};
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  line-height: 40px;
 `

@@ -12,6 +12,6 @@ describe('Header', () => {
   it('should render dynamic styles based on props', () => {
     expect(wrapper).toHaveStyleRule('font-size', '16px')
     wrapper.setProps({ main: true })
-    expect(wrapper).toHaveStyleRule('font-size', '20px')
+    expect(wrapper).toHaveStyleRule('font-size', '32px')
   })
 })

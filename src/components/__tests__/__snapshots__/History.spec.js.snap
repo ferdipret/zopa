@@ -23,31 +23,47 @@ ShallowWrapper {
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Array [
-    <div>
+    <styled.div
+      style={
+            Object {
+                  "borderTop": "none",
+                }
+      }
+>
       <div>
-            Jimmy
+            <styled.div>
+                  Jimmy
+            </styled.div>
+            <styled.div>
+                  jimmyblogs@zopa.com
+            </styled.div>
       </div>
-      <div>
-            jimmyblogs@zopa.com
-      </div>
-      <div>
-            2000
-      </div>
-</div>,
+      <styled.div>
+            £2,000.00
+      </styled.div>
+</styled.div>,
   ],
   Symbol(enzyme.__nodes__): Array [
     Array [
-      <div>
+      <styled.div
+        style={
+                Object {
+                        "borderTop": "none",
+                      }
+        }
+>
         <div>
-                Jimmy
+                <styled.div>
+                        Jimmy
+                </styled.div>
+                <styled.div>
+                        jimmyblogs@zopa.com
+                </styled.div>
         </div>
-        <div>
-                jimmyblogs@zopa.com
-        </div>
-        <div>
-                2000
-        </div>
-</div>,
+        <styled.div>
+                £2,000.00
+        </styled.div>
+</styled.div>,
     ],
   ],
   Symbol(enzyme.__options__): Object {

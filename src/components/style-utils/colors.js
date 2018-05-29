@@ -21,11 +21,13 @@ export const createColor = (h, s, l) => (m = 0) =>
     : `hsl(${h}, ${s}%, ${l + ((m > 0 ? 100 - l : l) * m) / 100}%)`
 
 export default {
-  primary: l => createColor(75, 50, 25)(l),
+  primary: l => createColor(245, 95, 61)(l),
+  danger: l => createColor(353, 98, 41)(l),
+  chartStrokePrimary: l => createColor(39, 100, 58)(l),
+  chartStrokeSecondary: l => createColor(240, 11, 93)(l),
+  alphaGrey: (l = 50) => `hsla(0, 0%, 0%, ${l / 100})`,
 
-  danger: l => createColor(75, 50, 25)(l),
-
-  greyInputBorder: l => createColor(0, 0, 25)(l),
-
-  lightGreyText: l => createColor(0, 0, 25),
+  labelText: l => createColor(230, 34, 17)(l),
+  labelHelper: l => createColor(0, 0, 29)(l),
+  greyInputBorder: l => createColor(233, 11, 85)(l),
 }

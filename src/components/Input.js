@@ -1,9 +1,9 @@
-import React from "react"
-import styled, { css } from "styled-components"
-import PropTypes from "prop-types"
+import React from 'react'
+import styled, { css } from 'styled-components'
+import PropTypes from 'prop-types'
 
-import color from "./style-utils/colors"
-import shadow from "./style-utils/shadows"
+import color from './style-utils/colors'
+import shadow from './style-utils/shadows'
 
 export class Input extends React.Component {
   static propTypes = {
@@ -12,21 +12,21 @@ export class Input extends React.Component {
     value: PropTypes.string.isRequired,
     label: PropTypes.string,
     error: PropTypes.bool,
-    helperText: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
+    helperText: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
   }
 
   static defaultProps = {
-    label: "",
-    value: "",
-    className: "",
-    placeholder: "",
-    error: false
+    label: '',
+    value: '',
+    className: '',
+    placeholder: '',
+    error: false,
   }
 
   constructor() {
     super()
     this.state = {
-      active: false
+      active: false,
     }
   }
 
@@ -44,9 +44,8 @@ export class Input extends React.Component {
         />
         <label
           htmlFor={label}
-          className={`label ${this.state.active && "active"} ${value &&
-            "has-content"}`}
-        >
+          className={`label ${this.state.active && 'active'} ${value &&
+            'has-content'}`}>
           {label}
         </label>
         {helperText && this.renderHelperText({ helperText, error })}
@@ -55,11 +54,11 @@ export class Input extends React.Component {
   }
 
   renderHelperText = ({ helperText, error }) => {
-    return typeof helperText === "string" ? (
-      <div className={`helper ${error && "error-text"}`}>{helperText}</div>
+    return typeof helperText === 'string' ? (
+      <div className={`helper ${error && 'error-text'}`}>{helperText}</div>
     ) : (
       helperText.map((text, i) => (
-        <div key={i} className={`helper ${error && "error-text"}`}>
+        <div key={i} className={`helper ${error && 'error-text'}`}>
           {text}
         </div>
       ))
@@ -69,6 +68,8 @@ export class Input extends React.Component {
 
 // prettier-ignore
 const StyledInput = styled(Input)`
+  font-family: Helvetica;
+  margin-top: 20px;
   position: relative;
   width: 100%;
 
@@ -84,8 +85,9 @@ const StyledInput = styled(Input)`
     box-shadow: none;
     box-sizing: border-box;
     border: none;
-    border-bottom: 1px solid ${color.greyInputBorder()};
+    border-bottom: 2px solid ${color.greyInputBorder()};
     border-radius: 0;
+    caret-color: ${color.primary()};
     font-size: 1rem;
     height: 1.5rem;
     margin: 1.5rem 0 8px 0;
@@ -103,8 +105,9 @@ const StyledInput = styled(Input)`
     `};
 
     &:focus {
-      border-bottom: 1px solid ${color.primary()};
+      border-bottom: 2px solid ${color.primary()};
       box-shadow: ${shadow.input.default};
+      color: ${color.labelText()};
       -webkit-box-shadow: 0 0 0 30px white inset;
 
       ${props => props.error && css`
@@ -116,11 +119,13 @@ const StyledInput = styled(Input)`
   }
 
   .label {
-    color: ${color.lightGreyText()};
+    color: ${color.labelText()};
     cursor: text;
     font-size: 1rem;
     height: 100%;
     left: 0;
+    letter-spacing: -0.16px;
+    line-height: 20px;
     pointer-events: none;
     position: absolute;
     transition: all 0.2s ease-out;
@@ -130,7 +135,7 @@ const StyledInput = styled(Input)`
     transform: translateY(1.5rem);
 
     &.has-content {
-      font-size: 0.8rem;
+      font-size: 15px;
       transform: translateY(0);
       ${props => props.error && css`
         color: ${color.danger()};
@@ -139,7 +144,7 @@ const StyledInput = styled(Input)`
 
     &.active {
       color: ${color.primary()};
-      font-size: 0.8rem;
+      font-size: 15px;
       transform: translateY(0);
       ${props => props.error && css`
         color: ${color.danger()};
@@ -148,7 +153,7 @@ const StyledInput = styled(Input)`
   }
 
   .helper {
-    color: ${color.lightGreyText()};
+    color: ${color.alphaGrey()};
     font-size: 0.75rem;
     font-style: italic;
   }

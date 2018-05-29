@@ -104,7 +104,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="sc-bdVaJa eJsMEG"
+                                    class="sc-bdVaJa ibdqgQ"
                   >
                                     <input
                                                       class="input-field"
@@ -225,7 +225,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="sc-bdVaJa eJsMEG"
+                                class="sc-bdVaJa ibdqgQ"
                 >
                                 <input
                                                 class="input-field"
@@ -339,7 +339,7 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+              "fileName": "/home/pi/zopa-test/src/components/Input.js",
               "lineNumber": 37,
             },
             "alternate": null,
@@ -348,7 +348,7 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                "fileName": "/home/pi/zopa-test/src/components/Input.js",
                 "lineNumber": 38,
               },
               "alternate": null,
@@ -384,7 +384,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                  "fileName": "/home/pi/zopa-test/src/components/Input.js",
                   "lineNumber": 45,
                 },
                 "alternate": null,
@@ -416,8 +416,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 59,
+                    "fileName": "/home/pi/zopa-test/src/components/Input.js",
+                    "lineNumber": 58,
                   },
                   "alternate": null,
                   "child": null,
@@ -495,7 +495,7 @@ ReactWrapper {
                   Invalid Username
 </div>,
               ],
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -519,14 +519,14 @@ ReactWrapper {
                   Invalid Username
 </div>,
               ],
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="sc-bdVaJa eJsMEG"
+              class="sc-bdVaJa ibdqgQ"
 >
               <input
                             class="input-field"
@@ -554,7 +554,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
             "error": true,
             "helperText": "Invalid Username",
             "label": "",
@@ -568,7 +568,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
             "error": true,
             "helperText": "Invalid Username",
             "label": "",
@@ -585,7 +585,7 @@ ReactWrapper {
             "_reactInternalInstance": Object {},
             "context": Object {},
             "props": Object {
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
               "error": true,
               "helperText": "Invalid Username",
               "label": "",
@@ -623,7 +623,7 @@ ReactWrapper {
           "value": "Hello there, brown bear!",
         },
         "memoizedState": Object {
-          "generatedClassName": "eJsMEG",
+          "generatedClassName": "ibdqgQ",
           "theme": Object {},
         },
         "mode": 0,
@@ -711,7 +711,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="sc-bdVaJa eJsMEG"
+                                    class="sc-bdVaJa ibdqgQ"
                   >
                                     <input
                                                       class="input-field"
@@ -832,7 +832,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="sc-bdVaJa eJsMEG"
+                                class="sc-bdVaJa ibdqgQ"
                 >
                                 <input
                                                 class="input-field"
@@ -941,7 +941,7 @@ ReactWrapper {
         "type": [Function],
         "updateQueue": Object {
           "baseState": Object {
-            "generatedClassName": "eJsMEG",
+            "generatedClassName": "ibdqgQ",
             "theme": Object {},
           },
           "expirationTime": 0,
@@ -970,7 +970,7 @@ ReactWrapper {
       },
       "refs": Object {},
       "state": Object {
-        "generatedClassName": "eJsMEG",
+        "generatedClassName": "ibdqgQ",
         "theme": Object {},
       },
       "unsubscribeId": -1,
@@ -1074,7 +1074,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -1195,7 +1195,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -1312,7 +1312,7 @@ ReactWrapper {
               "value": "Hello there, brown bear!",
             },
             "memoizedState": Object {
-              "generatedClassName": "eJsMEG",
+              "generatedClassName": "ibdqgQ",
               "theme": Object {},
             },
             "mode": 0,
@@ -1400,7 +1400,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -1521,7 +1521,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -1647,7 +1647,7 @@ ReactWrapper {
               },
               "refs": Object {},
               "state": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "unsubscribeId": -1,
@@ -1663,7 +1663,7 @@ ReactWrapper {
             "type": [Function],
             "updateQueue": Object {
               "baseState": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "expirationTime": 0,
@@ -1684,7 +1684,7 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+              "fileName": "/home/pi/zopa-test/src/components/Input.js",
               "lineNumber": 37,
             },
             "alternate": null,
@@ -1693,7 +1693,7 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                "fileName": "/home/pi/zopa-test/src/components/Input.js",
                 "lineNumber": 38,
               },
               "alternate": null,
@@ -1729,7 +1729,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                  "fileName": "/home/pi/zopa-test/src/components/Input.js",
                   "lineNumber": 45,
                 },
                 "alternate": null,
@@ -1761,8 +1761,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                    "lineNumber": 59,
+                    "fileName": "/home/pi/zopa-test/src/components/Input.js",
+                    "lineNumber": 58,
                   },
                   "alternate": null,
                   "child": null,
@@ -1840,7 +1840,7 @@ ReactWrapper {
                   Invalid Username
 </div>,
               ],
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -1864,14 +1864,14 @@ ReactWrapper {
                   Invalid Username
 </div>,
               ],
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="sc-bdVaJa eJsMEG"
+              class="sc-bdVaJa ibdqgQ"
 >
               <input
                             class="input-field"
@@ -1899,7 +1899,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
             "error": true,
             "helperText": "Invalid Username",
             "label": "",
@@ -1913,7 +1913,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
             "error": true,
             "helperText": "Invalid Username",
             "label": "",
@@ -2001,7 +2001,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -2122,7 +2122,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -2239,7 +2239,7 @@ ReactWrapper {
               "value": "Hello there, brown bear!",
             },
             "memoizedState": Object {
-              "generatedClassName": "eJsMEG",
+              "generatedClassName": "ibdqgQ",
               "theme": Object {},
             },
             "mode": 0,
@@ -2327,7 +2327,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -2448,7 +2448,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -2574,7 +2574,7 @@ ReactWrapper {
               },
               "refs": Object {},
               "state": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "unsubscribeId": -1,
@@ -2590,7 +2590,7 @@ ReactWrapper {
             "type": [Function],
             "updateQueue": Object {
               "baseState": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "expirationTime": 0,
@@ -2615,7 +2615,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "className": "sc-bdVaJa eJsMEG",
+          "className": "sc-bdVaJa ibdqgQ",
           "error": true,
           "helperText": "Invalid Username",
           "label": "",
@@ -2638,7 +2638,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "className": "sc-bdVaJa eJsMEG",
+        "className": "sc-bdVaJa ibdqgQ",
         "error": true,
         "helperText": "Invalid Username",
         "label": "",
@@ -2649,7 +2649,7 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="sc-bdVaJa eJsMEG"
+          class="sc-bdVaJa ibdqgQ"
 >
           <input
                     class="input-field"
@@ -2686,7 +2686,7 @@ ReactWrapper {
               Invalid Username
 </div>,
           ],
-          "className": "sc-bdVaJa eJsMEG",
+          "className": "sc-bdVaJa ibdqgQ",
         },
         "ref": null,
         "rendered": Array [
@@ -2841,7 +2841,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -2962,7 +2962,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="sc-bdVaJa eJsMEG"
+                                    class="sc-bdVaJa ibdqgQ"
                   >
                                     <input
                                                       class="input-field"
@@ -3076,7 +3076,7 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                "fileName": "/home/pi/zopa-test/src/components/Input.js",
                 "lineNumber": 37,
               },
               "alternate": null,
@@ -3085,7 +3085,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                  "fileName": "/home/pi/zopa-test/src/components/Input.js",
                   "lineNumber": 38,
                 },
                 "alternate": null,
@@ -3121,7 +3121,7 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                    "fileName": "/home/pi/zopa-test/src/components/Input.js",
                     "lineNumber": 45,
                   },
                   "alternate": null,
@@ -3153,8 +3153,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                      "lineNumber": 59,
+                      "fileName": "/home/pi/zopa-test/src/components/Input.js",
+                      "lineNumber": 58,
                     },
                     "alternate": null,
                     "child": null,
@@ -3232,7 +3232,7 @@ ReactWrapper {
                     Invalid Username
 </div>,
                 ],
-                "className": "sc-bdVaJa eJsMEG",
+                "className": "sc-bdVaJa ibdqgQ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -3256,14 +3256,14 @@ ReactWrapper {
                     Invalid Username
 </div>,
                 ],
-                "className": "sc-bdVaJa eJsMEG",
+                "className": "sc-bdVaJa ibdqgQ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="sc-bdVaJa eJsMEG"
+                class="sc-bdVaJa ibdqgQ"
 >
                 <input
                                 class="input-field"
@@ -3291,7 +3291,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
               "error": true,
               "helperText": "Invalid Username",
               "label": "",
@@ -3305,7 +3305,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
               "error": true,
               "helperText": "Invalid Username",
               "label": "",
@@ -3322,7 +3322,7 @@ ReactWrapper {
               "_reactInternalInstance": Object {},
               "context": Object {},
               "props": Object {
-                "className": "sc-bdVaJa eJsMEG",
+                "className": "sc-bdVaJa ibdqgQ",
                 "error": true,
                 "helperText": "Invalid Username",
                 "label": "",
@@ -3360,7 +3360,7 @@ ReactWrapper {
             "value": "Hello there, brown bear!",
           },
           "memoizedState": Object {
-            "generatedClassName": "eJsMEG",
+            "generatedClassName": "ibdqgQ",
             "theme": Object {},
           },
           "mode": 0,
@@ -3448,7 +3448,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="sc-bdVaJa eJsMEG"
+                                        class="sc-bdVaJa ibdqgQ"
                     >
                                         <input
                                                             class="input-field"
@@ -3569,7 +3569,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="sc-bdVaJa eJsMEG"
+                                    class="sc-bdVaJa ibdqgQ"
                   >
                                     <input
                                                       class="input-field"
@@ -3678,7 +3678,7 @@ ReactWrapper {
           "type": [Function],
           "updateQueue": Object {
             "baseState": Object {
-              "generatedClassName": "eJsMEG",
+              "generatedClassName": "ibdqgQ",
               "theme": Object {},
             },
             "expirationTime": 0,
@@ -3707,7 +3707,7 @@ ReactWrapper {
         },
         "refs": Object {},
         "state": Object {
-          "generatedClassName": "eJsMEG",
+          "generatedClassName": "ibdqgQ",
           "theme": Object {},
         },
         "unsubscribeId": -1,
@@ -3811,7 +3811,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="sc-bdVaJa eJsMEG"
+                                                class="sc-bdVaJa ibdqgQ"
                         >
                                                 <input
                                                                         class="input-field"
@@ -3932,7 +3932,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -4049,7 +4049,7 @@ ReactWrapper {
                 "value": "Hello there, brown bear!",
               },
               "memoizedState": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "mode": 0,
@@ -4137,7 +4137,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="sc-bdVaJa eJsMEG"
+                                                class="sc-bdVaJa ibdqgQ"
                         >
                                                 <input
                                                                         class="input-field"
@@ -4258,7 +4258,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -4384,7 +4384,7 @@ ReactWrapper {
                 },
                 "refs": Object {},
                 "state": Object {
-                  "generatedClassName": "eJsMEG",
+                  "generatedClassName": "ibdqgQ",
                   "theme": Object {},
                 },
                 "unsubscribeId": -1,
@@ -4400,7 +4400,7 @@ ReactWrapper {
               "type": [Function],
               "updateQueue": Object {
                 "baseState": Object {
-                  "generatedClassName": "eJsMEG",
+                  "generatedClassName": "ibdqgQ",
                   "theme": Object {},
                 },
                 "expirationTime": 0,
@@ -4421,7 +4421,7 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                "fileName": "/home/pi/zopa-test/src/components/Input.js",
                 "lineNumber": 37,
               },
               "alternate": null,
@@ -4430,7 +4430,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                  "fileName": "/home/pi/zopa-test/src/components/Input.js",
                   "lineNumber": 38,
                 },
                 "alternate": null,
@@ -4466,7 +4466,7 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
+                    "fileName": "/home/pi/zopa-test/src/components/Input.js",
                     "lineNumber": 45,
                   },
                   "alternate": null,
@@ -4498,8 +4498,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/strongbyte-fp/Repos/zopa/src/components/Input.js",
-                      "lineNumber": 59,
+                      "fileName": "/home/pi/zopa-test/src/components/Input.js",
+                      "lineNumber": 58,
                     },
                     "alternate": null,
                     "child": null,
@@ -4577,7 +4577,7 @@ ReactWrapper {
                     Invalid Username
 </div>,
                 ],
-                "className": "sc-bdVaJa eJsMEG",
+                "className": "sc-bdVaJa ibdqgQ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -4601,14 +4601,14 @@ ReactWrapper {
                     Invalid Username
 </div>,
                 ],
-                "className": "sc-bdVaJa eJsMEG",
+                "className": "sc-bdVaJa ibdqgQ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="sc-bdVaJa eJsMEG"
+                class="sc-bdVaJa ibdqgQ"
 >
                 <input
                                 class="input-field"
@@ -4636,7 +4636,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
               "error": true,
               "helperText": "Invalid Username",
               "label": "",
@@ -4650,7 +4650,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "className": "sc-bdVaJa eJsMEG",
+              "className": "sc-bdVaJa ibdqgQ",
               "error": true,
               "helperText": "Invalid Username",
               "label": "",
@@ -4738,7 +4738,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="sc-bdVaJa eJsMEG"
+                                                class="sc-bdVaJa ibdqgQ"
                         >
                                                 <input
                                                                         class="input-field"
@@ -4859,7 +4859,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -4976,7 +4976,7 @@ ReactWrapper {
                 "value": "Hello there, brown bear!",
               },
               "memoizedState": Object {
-                "generatedClassName": "eJsMEG",
+                "generatedClassName": "ibdqgQ",
                 "theme": Object {},
               },
               "mode": 0,
@@ -5064,7 +5064,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="sc-bdVaJa eJsMEG"
+                                                class="sc-bdVaJa ibdqgQ"
                         >
                                                 <input
                                                                         class="input-field"
@@ -5185,7 +5185,7 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="sc-bdVaJa eJsMEG"
+                                            class="sc-bdVaJa ibdqgQ"
                       >
                                             <input
                                                                   class="input-field"
@@ -5311,7 +5311,7 @@ ReactWrapper {
                 },
                 "refs": Object {},
                 "state": Object {
-                  "generatedClassName": "eJsMEG",
+                  "generatedClassName": "ibdqgQ",
                   "theme": Object {},
                 },
                 "unsubscribeId": -1,
@@ -5327,7 +5327,7 @@ ReactWrapper {
               "type": [Function],
               "updateQueue": Object {
                 "baseState": Object {
-                  "generatedClassName": "eJsMEG",
+                  "generatedClassName": "ibdqgQ",
                   "theme": Object {},
                 },
                 "expirationTime": 0,
@@ -5352,7 +5352,7 @@ ReactWrapper {
           "_reactInternalInstance": Object {},
           "context": Object {},
           "props": Object {
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
             "error": true,
             "helperText": "Invalid Username",
             "label": "",
@@ -5375,7 +5375,7 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "className": "sc-bdVaJa eJsMEG",
+          "className": "sc-bdVaJa ibdqgQ",
           "error": true,
           "helperText": "Invalid Username",
           "label": "",
@@ -5386,7 +5386,7 @@ ReactWrapper {
         "ref": null,
         "rendered": Object {
           "instance": <div
-            class="sc-bdVaJa eJsMEG"
+            class="sc-bdVaJa ibdqgQ"
 >
             <input
                         class="input-field"
@@ -5423,7 +5423,7 @@ ReactWrapper {
                 Invalid Username
 </div>,
             ],
-            "className": "sc-bdVaJa eJsMEG",
+            "className": "sc-bdVaJa ibdqgQ",
           },
           "ref": null,
           "rendered": Array [
