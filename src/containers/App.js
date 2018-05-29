@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Header from '../components/Header'
-import Input from '../components/Input'
-import Button from '../components/Button'
+import React, { Component } from "react"
+import Header from "../components/Header"
+import Input from "../components/Input"
+import Button from "../components/Button"
 
 export class App extends Component {
   render() {
@@ -18,9 +18,7 @@ export class App extends Component {
     )
   }
 
-  handleSend = () => {
-    console.log('handleSend')
-  }
+  handleSend = () => {}
 }
 
 export default App

@@ -1,22 +1,22 @@
-import React from 'react'
-import { shallow } from 'enzyme'
-import Button from '../Button'
-import 'jest-styled-components'
+import React from "react"
+import { shallow } from "enzyme"
+import Button from "../Button"
+import "jest-styled-components"
 
-describe('Button', () => {
+describe("Button", () => {
   const onClick = jest.fn()
   const props = {
-    onClick,
+    onClick
   }
   const wrapper = shallow(<Button {...props} />)
 
-  it('renders properly', () => {
+  it("renders properly", () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  describe('when clicking the button', () => {
-    it('calls the `onClick` event', () => {
-      wrapper.find('button').simulate('click')
+  describe("when clicking the button", () => {
+    it("calls the `onClick` event", () => {
+      wrapper.find("button").simulate("click")
       expect(onClick).toHaveBeenCalled()
     })
   })

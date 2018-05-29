@@ -6,11 +6,7 @@
       "lastname": "Pretorius",
       "email": "ferdinandpretorius@zopa.com",
       "balance": 20000,
-      "transactionIds": [
-        1,
-        2,
-        3
-      ]
+      "transactionIds": [1, 2, 3, 4]
     }
   ],
   "transactions": [
